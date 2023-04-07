@@ -1,4 +1,5 @@
 .product {
-    width: 25%;
-    float: left;
-  }
+  width: calc(25% - 10px);
+  margin: 80px;
+  display: inline-block;
+}
