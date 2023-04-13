@@ -1,19 +1,24 @@
+header {
+background-color: blue;
+}
+
 .containerProdutos {
   display: flex;
   flex-wrap: wrap;
 }
 
-.card {
-  height: 300px;
-  width: 300px;
+body {
+  background-image: linear-gradient(to bottom, #23c023, #0d95b8);
+  background-position: 80% 80%;
 }
 
 .card {
+  height: 300px;
+  width: 300px;
   flex: 1 1 300px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(83, 210, 233);
-  box-shadow: 0 3px 10px rgba(0,0,0,0.12), 0 3px 8px rgba(0,0,0,0.23);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 6px 8px rgba(0,0,0,0.23);
 }
 
 .card {
@@ -23,15 +28,33 @@
 .card img {
   display: block;
   margin: 0 auto;
-}
-
-.card img {
   width: 250px;
   height: 250px;
   object-fit: cover;
-}
-
-.card img {
   max-width: 100%;
   height: auto;
 }
+
+.card .product .productDescription h3.product__title {
+  color: yellowgreen;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card .product .productDescription span.product__price{
+  color: skyblue;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: skyblue;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  
+}
+
+
+
