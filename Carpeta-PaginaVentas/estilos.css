@@ -1,0 +1,217 @@
+* {
+    font-family: initial;
+    font-weight: 600;
+}
+
+body {
+    background: linear-gradient(#6c757d,#3e1616b0);
+    /*background-image: url(logos/logoB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-attachment: fixed;
+}
+/*seccion nav */
+.navbar-toggler {
+    margin-left: 210px;
+}
+
+.h2 {
+    text-align: center;
+    background: linear-gradient(24deg, #658514, #ab9426);
+}
+
+.h2Categoria {
+    text-align: center;
+    color: #37ced5;
+}
+/*seccion end nav */
+
+/* seccion: aside */
+aside {
+    background: linear-gradient(45deg, #1f1b2a, #6c757d);
+}
+
+.ul {
+    list-style-type: none;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+
+.li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.li:hover {
+    transform: translateX(13px);
+    transition: all 1.5s;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: linear-gradient(45deg, #1f1b2a, #6c757d);
+
+}
+/*seccion end aside */
+
+/* seccion carrusel */
+.carousel-container, .carousel-inner, .carousel-item {
+    border-radius: 20px;
+  }
+
+.carousel-inner {
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+}
+
+
+.carousel-control-prev-icon {
+    border-radius: 50%;
+    background-color: #0a7ce9;
+}
+
+.carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: #0a7ce9;
+}
+
+.descripcionP {
+    color: #000;
+}
+
+/* seccion end carrusel */
+
+.presentacion {
+    text-align: center;
+    margin-top: 50px;
+    color: initial;
+    font-weight: 600;
+}
+
+
+/* seccion footer */
+.piepag{
+    margin-top: 10px;
+    padding: 40px 0;
+    background-color: #2e2e30;
+}
+
+.containerF {
+    margin: 0 auto;
+    max-width: 1000px;   
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-lista h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-lista{
+    width: 25%;
+    margin-right: 80px;
+    
+}
+
+.sin-punto {
+    list-style-type: none;
+}
+
+.footer-lista ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-lista ul li a:hover{
+    color: white;
+    padding-left: 6px;
+}
+
+.redes img{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+@media(max-width: 768px){
+    .footer-row{
+        text-align: center;
+    }
+
+    .footer-lista{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+#icono {
+    background-color: #178f57;
+    border-radius: 30%;
+}
+
+@media(max-width: 768px) {
+    #prueba {
+        margin-left: 28px;
+    }
+}
+/*seccion end footer */
+
+/* style productos-destacados */
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px;
+    max-width: 250px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    border-radius: 50%;
+    height: 150px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 150px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      flex-direction: column;
+      max-width: 400px;
+    }
+  }
+  
+.card:hover {
+    transition: all 1s;
+    background: #ccc;
+    box-shadow: -1px 2px 3px rgb(58, 31, 31);
+    transform: scale(1.1);
+}
+
+.precio {
+    width: 50%;
+    height: 20px;
+    margin-left: 50px;
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #212529, #272685bf);
+    font-family: initial;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.info{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 100%;
+    
+}
+
+.form-main {
+    min-height: 100vh;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 100%;
+    max-width: 450px;
+    min-width: 320px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.form-content h4 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+    color: yellow;
+}
+
+.form-content form {
+    margin: 25px 0 20px;
+}
+
+.form-content input {
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: silver;
+
+}
+
+.form-content input:focus {
+    outline: none
+}
+
+.form-content .btn {
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    user-select: none;
+    background: linear-gradient(to right, rgb(75, 75, 235), rgb(206, 202, 202));
+    border: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.form-content .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    z-index: -1;
+
+}
+
+.form-content .btn:hover::before {
+    background-color: gray;
+}
+
+.form-content p {
+    text-align: center;
+    color: #fff;
+}
+
+.parrafo {
+    color: yellow;
+}
+
+.form-content .warning {
+    color: red;
+}
+
+
+.form-content .box {
+    border-color: hsl(167, 88%, 46%);
+    border: 1px solid hsl(167, 94%, 19%);
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+
+.labelR {
+    display: block;
+    padding: 8px 10px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.labelR input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    outline: none;
+}
+
+.labelR span {
+    color: rgb(39 215 61);
+    position: absolute;
+    /*top: 8px;
+    left: 10px;*/
+    margin: -35px 0px;
+}
+
+.labelL {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.labelL span {
+    color:hsl(167, 88%, 46%);
+}
