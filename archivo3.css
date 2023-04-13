@@ -1,3 +1,7 @@
+head {
+  background-color: antiquewhite;
+}
+
 .containerProdutos {
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +23,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to bottom, #31c47f,#1ba2ac);
+  background-position: 80% 80%;
 }
 
 .card img {
