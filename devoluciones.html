@@ -5,13 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devoluciones</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
+   
 
-    
-    //pagina de devolucion
-<h1>ingresar devolucion</h1>
+    <div class="content">
+        
 
+        <div class="contact-wrapper">
+            <h1 class="logo">Tech<span>Zone</span></h1>
+            <div class="contact-form">
+                <h3>Complete el formulario</h3>
+                <form action="">
+                    <p>
+                        <label>Ingresar Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                            
+                    </p>
+                    <p>
+                        <label>Ingresar Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                            
+                    </p>
+                    <p>
+                        <label>Correo electronico</label>
+                        <input type="email" name="correo" id="correo">
+
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="telefono" id="telefono">
+
+                    </p>
+                    <p>
+                    <label for="motivo">Motivo de la devolución:</label>
+		               <select id="motivo" name="motivo">
+			             <option value="defectuoso">Producto defectuoso</option>
+			             <option value="equivocado">Producto equivocado</option>
+			             <option value="no-gusta">No me gusta el producto</option>
+			             <option value="otro">Otro</option>
+		                </select>
+                    </p>
+                    <p class="block">
+                      <label>Mensaje</label>  
+                      <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+   
+
+<footer >
+    <div class="box">
+        <div class="devolucionesysomos">
+            
+            <div class="dys"><a href="devoluciones.html">Devoluciones y Soporte</a></div> 
+            <br>
+            <div class="qs"><a href="somos.html">Quienes Somos?</a></div>
+         
+         </div> 
+
+
+        <div class="contacto">
+            
+            
+            <ul>
+                <li>GMail: TechZone@gmail.com</li> <br>
+                <li>Teléfono:xxx-xxxx-xxxx</li> <br>
+                <li>Dirección: 9 de Julio 1212</li>
+              </ul>
+        </div>
+
+
+        <div class="redes">
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+      </div>
+            
+</footer>
 
 </body>
 </html>
