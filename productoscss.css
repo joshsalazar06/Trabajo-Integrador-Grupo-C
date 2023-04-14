@@ -17,8 +17,8 @@ body {
 .card {
   height: 350px;
   width: 350px;
-  flex: 1 1 400px;
-  margin: 50px;
+  flex: 1 1 350px;
+  margin: 30px;
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 6px 8px rgba(0,0,0,0.23);
   display: flex;
@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to bottom, #31c47f,#1ba2ac);
-  background-position: 80% 80%;
+  background-position: 50% 50%;
 }
 
 .card img {
@@ -75,7 +75,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 250px;
   max-width: 90%;
   max-height: 90%;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
