@@ -4,12 +4,10 @@
 }
 
 body {
-    background: linear-gradient(#6c757d,#3e1616b0);
-    /*background-image: url(logos/logoB.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    background-attachment: fixed;
-}
+        background-image: linear-gradient(to bottom, #23c023, #0d95b8);
+        background-position: 80% 80%;
+      }
+
 /*seccion nav */
 .navbar-toggler {
     margin-left: 210px;
@@ -17,7 +15,8 @@ body {
 
 .h2 {
     text-align: center;
-    background: linear-gradient(24deg, #658514, #ab9426);
+    background: linear-gradient(24deg, #316b4b, #588cd1);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .h2Categoria {
@@ -214,4 +213,14 @@ aside {
     width: 50%;
     height: 20px;
     margin-left: 50px;
+}
+
+.logo{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.logo span{
+    color:#4a5db6;
 }
