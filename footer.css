@@ -122,14 +122,14 @@
 }
 
 .content{
-    max-width: 400px;
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
     
 }
 
-.logo{
+/* .logo{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 3em;
@@ -137,7 +137,7 @@
 }
 .logo span{
     color:#202132;
-}
+} */
 
 .contact-wrapper > * {
     padding: 0.1em;

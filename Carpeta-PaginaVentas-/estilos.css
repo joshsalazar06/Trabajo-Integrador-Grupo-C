@@ -215,3 +215,15 @@ aside {
     height: 20px;
     margin-left: 50px;
 }
+
+/* logo principal */
+.logo{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    
+}
+.logo span{
+    color:#83848a;
+}

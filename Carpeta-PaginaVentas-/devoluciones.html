@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="../stylePRODUCTOS.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Ventas De Teclados</title>
+    
 </head>
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+   
+    <!----------------------------EMPIEZA EL NAV---------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container-fluid">
       <div class="d-flex align-items-center">
           <a class="navbar-brand" href="#">
@@ -44,77 +45,94 @@
       </div>
     </div>
    </nav>
+  <!------------TERMINA EL NAV-------------------------------------->  
+  <h2 class="h2">Bienvenido a nuestra tienda TechZone</h2>
+  <label class="width: 100%"></label> 
 
-   <h2 class="h2">Bienvenido a nuestra tienda TechZone</h2>
-<label class="width: 100%"></label>
-    
-      <div class="container my-5">
-        <h1 class="mb-5">Productos de hardware</h1>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="../imgPRODUCTOS/Teclado-corsair k63.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Producto 1</h5>
-                <p class="card-text">Descripción del producto 1.</p>
-                <span class="badge bg-success mb-4">$99.99</span><br>
-                <a href="#" class="btn btn-primary">Comprar</a>
-              </div>
+    <div class="content">
+        
+
+        <div class="contact-wrapper">
+            <h1 class="logo">Tech<span>Zone</span></h1>
+            <div class="contact-form">
+                <h3>Complete el formulario</h3>
+                <form action="">
+                    <p>
+                        <label>Ingresar Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                            
+                    </p>
+                    <p>
+                        <label>Ingresar Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                            
+                    </p>
+                    <p>
+                        <label>Correo electronico</label>
+                        <input type="email" name="correo" id="correo">
+
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="telefono" id="telefono">
+
+                    </p>
+                    <p>
+                    <label for="motivo">Motivo de la devolución:</label>
+		               <select id="motivo" name="motivo">
+			             <option value="defectuoso">Producto defectuoso</option>
+			             <option value="equivocado">Producto equivocado</option>
+			             <option value="no-gusta">No me gusta el producto</option>
+			             <option value="otro">Otro</option>
+		                </select>
+                    </p>
+                    <p class="block">
+                      <label>Mensaje</label>  
+                      <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+
+
+
             </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="../imgPRODUCTOS/Teclado-hyperx alloy elite.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Producto 2</h5>
-                <p class="card-text">Descripción del producto 2.</p>
-                <span class="badge bg-success mb-3">$99.99</span><br>
-                <a href="#" class="btn btn-primary">Comprar</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="../imgPRODUCTOS/Teclado-rd k900m.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Producto 3</h5>
-                <p class="card-text">Descripción del producto 3.</p>
-                <span class="badge bg-success mb-3">$99.99</span><br>
-                <a href="#" class="btn btn-primary">Comprar</a>
-              </div>
-            </div>
-          </div>
+
+
         </div>
-      </div>
-    
-      <footer class="piepag">
+
+
+    </div>
+   
+
+    <footer class="piepag">
         <div class="containerF">
             <div class="footer-row">
                 <div class="footer-lista">
                      <ul class="sin-punto">
                         <h4>Informacion</h4>
-                          <li><a href="../somos.html">¿Quienes somos?</a></li>
+                          <li><a href="somos.html">¿Quienes somos?</a></li>
                            <li><a href="#">Terminos y Conidciones</a></li>
                      </ul>
                  </div>
                       <div class="footer-lista">
                           <ul class="sin-punto">
                               <h4>Ayuda</h4>
-                              <li><a href="../devoluciones.html">Devoluciones y Soporte</a></li>
+                              <li><a href="devoluciones.html">Devoluciones y Soporte</a></li>
                               <li><a href="#">Formas de Pago</a></li>                              
                           </ul>
                       </div>
                       <div class="footer-lista" id="prueba">
                           <h4>Redes sociales</h4>
                           <div class="redes">
-                            <a href="#"> <img src="../logos/facebook.png"></a>
-                            <a href="#"><i><img src="../logos/whatsapp.png"></i></a>
-                            <a href="#"> <img src="../logos/instagram.png"></a>
+                            <a href="#"> <img src="logos/facebook.png"></a>
+                            <a href="#"><i><img src="logos/whatsapp.png"></i></a>
+                            <a href="#"> <img src="logos/instagram.png"></a>
                           </div>
                       </div>
                   </div>
               </div>
             </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
