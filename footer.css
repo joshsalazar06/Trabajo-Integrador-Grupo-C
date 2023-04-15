@@ -183,3 +183,88 @@
     text-transform: uppercase;
     padding: 1em;
 }
+
+/* seccion footer */
+body {
+    background: linear-gradient(45deg, #1e38ad, #11354a);
+}
+
+.piepag{
+    margin-top: 10px;
+    padding: 40px 0;
+    background-color: #2e2e30;
+}
+
+.containerF {
+    margin: 0 auto;
+    max-width: 1000px;   
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-lista h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-lista{
+    width: 25%;
+    margin-right: 80px;
+    
+}
+
+.sin-punto {
+    list-style-type: none;
+}
+
+.footer-lista ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-lista ul li a:hover{
+    color: white;
+    padding-left: 6px;
+}
+
+.redes img{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+@media(max-width: 768px){
+    .footer-row{
+        text-align: center;
+    }
+
+    .footer-lista{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+#icono {
+    background-color: #178f57;
+    border-radius: 30%;
+}
+
+@media(max-width: 768px) {
+    #prueba {
+        margin-left: 28px;
+    }
+}
+/*seccion end footer */
