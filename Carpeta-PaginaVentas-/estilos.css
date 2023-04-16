@@ -224,3 +224,10 @@ aside {
 .logo span{
     color:#4a5db6;
 }
+
+.descripcionP {
+    background-color: rgba(65, 129, 124, 0.479);
+    border-radius: 15px;
+    padding: 10px; 
+    color: #fffdfd; 
+  }
